@@ -12,10 +12,10 @@ header{
     border-bottom: 1px solid #ffffff;
     background-color: rgba(0, 0,0,0.1);
 }
-header div {
+ .links {
     text-align: center;  
 }
-header div a {
+ .links a {
     color: white;  
     font-size: 20px; 
     line-height: 30px;  
@@ -23,7 +23,53 @@ header div a {
     text-decoration: none;  
     font-family: "Lora", serif;  
 }
-header div a:hover {  
+.links a:hover {  
     color: rgb(0, 255, 251); 
     transition: color 700ms;  
+}
+#box{
+    text-align: center;
+    padding: 32px;
+}
+
+#box img{
+    border-radius: 50%;
+    border: 5px solid floralwhite;
+    margin-bottom: 32px;
+}
+
+#box h1{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+}
+#box h2{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+#box p{
+    max-width: 500px;
+    margin: 32px auto;
+    font-size: 24px;
+    line-height: 34px;
+}
+#box h1{
+    padding: 4px;
+}
+#box h2{
+    padding: 10px;
+}
+#box p:hover{
+    font-size: 23px;
+}
+#linkfooter{
+    padding: 32px;
+}
+#linkfooter a{
+    padding-top: 32px;
+    padding-bottom: 8px;
+    border-bottom: 5px solid salmon;
 }
